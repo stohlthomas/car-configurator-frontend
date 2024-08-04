@@ -193,7 +193,7 @@ export const initialConfig = {
     color: "white",
     wheels: "wheel_1",
     interior_color: "all_black",
-    interior_layout: ["five_seat"]
+    interior_layout: []
   },
   'x': {
     car_type: "long_range_plus",
@@ -201,7 +201,7 @@ export const initialConfig = {
     color: "white",
     wheels: "wheel_1",
     interior_color: "all_black",
-    interior_layout: ["five_seat"]
+    interior_layout: []
   },
   'y': {
     car_type: "long_range",
@@ -209,6 +209,6 @@ export const initialConfig = {
     color: "white",
     wheels: "wheel_1",
     interior_color: "all_black",
-    interior_layout: ["five_seat"]
+    interior_layout: []
   }
 };
