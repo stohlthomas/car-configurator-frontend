@@ -9,5 +9,11 @@
             "ContainerPort": "3000"
         }
     ],
-    "Logging": "/var/log/nginx"
+    "Logging": "/var/log/nginx",
+    "environment": [
+        {
+            "name": "APP_URL",
+            "value": "http://car-config-backend.eu-central-1.elasticbeanstalk.com"
+        }
+    ]
 }

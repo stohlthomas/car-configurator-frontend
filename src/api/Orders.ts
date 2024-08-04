@@ -1,4 +1,6 @@
-const API_URL = 'http://car-config-backend.eu-central-1.elasticbeanstalk.com' || 'http://localhost:3001';
+const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:3001'; // move to env variable
+
+console.log('API_URL:', API_URL)
 
 export const createOrder = async (order: any) => {
     console.log(order)

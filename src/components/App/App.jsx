@@ -13,7 +13,7 @@ import OrderSuccessPopup from '../OrderSuccessPopup';
 import InteriorPreview from '../InteriorPreview';
 import useLocalStorage from './useLocalStorage';
 import { useHistory } from 'react-router-dom';
-import { createOrder } from '../api/Orders.ts';
+import { createOrder } from '../../api/Orders';
 import { useState } from 'react';
 
 const App = () => {
